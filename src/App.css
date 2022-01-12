@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+:root{
+  --mainPink:#f62f5e;
+  --lightBlue:#009ffd;
+  --mainGray:#f7f7f7;
+  --mainDark:#232528;
+  --mainWhite:#ffffff;
+ 
+}
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  /* font-family:  serif !important; */
+  background:var(--mainGray) !important;
+  color:var(--mainDark) !important
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+html {
+  font-size: 62.5%;
+ 
+}
+
+body {
+  /* line-height: 1.6; */
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+.container-fluid {
+  padding: 0 ;
+  margin: 0 !important;
+  box-sizing: border-box;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+
+.text-title{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing:0.3rem;
+  text-transform:uppercase
+}
+
+.text-blue{
+  color: var(--mainBlue)
+
+}
+ .nav-link{
+  color:white
+} 
+
+
+.carousel .control-dots{
+  display:none;
+}
+
+.carousel.carousel-slider .control-arrow {
+  display:none;
+}
+.carousel .carousel-status{
+  display:none;
+}
+
+
+
+
+
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-container {
+  position: absolute;
+  width: 60%;
+  background: #ffffff;
+  left: 25%;
+  top: 0%;
+  /* padding: 3em; */
+}
+
+.cart__box{
+padding:3em;
+}
+
+.button__container{
+  background: var(--mainGray);
+}
+
+.btn__container{
+  
+  padding:1em 0em;
+  margin:0em auto !important;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+button{
+  border:none;
+  outline: none !important;
+  font-size: 20px !important;;
+  background-color:#f62f5e;
+  color:white;
+  padding:0.5em 2em;
+  border-radius: 2em !important;
+}
+button:hover{
+  color:var(--mainPink);
+  background-color: white;
+ 
+
+}
+
+/* count button */
+.quantity span{
+
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 0em 0.5em;
+  font-size: 15px;
+  background-color:  #8080802b;;
+  /* margin-right:1em */
+
+}
+.btncount{
+  padding:0.1em 1em !important;
+  background-color:  white !important;
+}

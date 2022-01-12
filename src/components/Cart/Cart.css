@@ -1,0 +1,28 @@
+:root{
+    --mainPink:#f62f5e;
+    --lightBlue:#009ffd;
+    --mainGray:#f7f7f7;
+    --mainDark:#232528;
+    --mainWhite:#ffffff;
+   
+  }
+
+
+/* CARTITEM STYLING */
+
+.cart__img{
+    width: 10rem;
+  padding:1em;
+  border:1px solid gray;
+  text-align: center;
+  
+  }
+  .img__caption{
+    margin-left:2em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+  }
+  .img__remove {
+  cursor: pointer;
+  }
